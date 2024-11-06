@@ -1,5 +1,7 @@
 # **1.Data description:** 
 
+All the data mentioned below are stored in data.zip.
+
 **NYC_sim_obs_102.txt**:The infection scale of New York City from February 29 to June 8, 2020, artificially simulated and generated. The data length is 102.
 
 **uhf_sim_obs_14_42.txt**: The infection scale of 42 UHFs (Neighborhood Tabulation Areas) in New York City from February 29 to June 8, 2020, artificially simulated and generated. The data is reported weekly, and the data scale is (14,42).
