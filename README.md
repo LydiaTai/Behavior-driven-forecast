@@ -31,7 +31,7 @@ For example,the flow ratio of people living in the i-th UHF on the t-th day goin
 
 My local Python version is 3.10.15, and the compiler is Visual Studio Code. Both are suitable for running the following code.
 
-## MCMC.ipynb
+## MH.ipynb
 
 The function of this code is to train the key parameters in the model according to the existing UHF-level infection data to fit the real data. The measure of goodness and badness is log-likelihood. This code first needs to read necessary data such as mobility data, real infection data, humidity data, observation rate, etc. Then you can set the training times ‘n1’, the initial value ‘para_0’ of each parameter, and the perturbation variance ‘para_step’ by yourself, and run the Main program block. Finally, the currently trained parameters can generate simulated data, and the fitting situation at both the New York City and UHF levels can be intuitively seen in the plot part.
 
